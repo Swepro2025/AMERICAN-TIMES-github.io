@@ -1,0 +1,36 @@
+.contact.submit-button {
+    text-align: center;
+    margin: .7rem 0;
+}
+
+/*-----------------------------------------------------------------
+  CONTACT FORM(reCAPTCHA)
+-----------------------------------------------------------------*/
+.recaptcha-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.recaptcha-container > .g-recaptcha {
+    display: inline-block;
+}
+.recaptcha-container > .warning-block {
+    display: block;
+}
+/*FOR INVISIBLE*/
+#contactForm #btnSubmitting ul li:last-child button.g-recaptcha {
+    background: #960000;
+}
+#contactForm #btnSubmitting ul li button.g-recaptcha {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
